@@ -28,5 +28,7 @@ public class C01Variable {
 //       mission) 정수를 담을 수 있는 c변수를 선언하고 c에 100 넣고 출력
         int c=100;
         System.out.println(c);
+        
+        // 테스트 주석
     }
 }
