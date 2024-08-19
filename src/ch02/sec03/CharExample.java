@@ -1,6 +1,6 @@
 package ch02.sec03;
 
-public class ChartExample {
+public class CharExample {
     public static void main(String[] args) {
         char c1 = 'A';
         char c2 = 65;
