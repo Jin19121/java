@@ -3,8 +3,8 @@ package ch02.lecture.p03string;
 public class C04String {
     public static void main(String[] args) {
         // + : 문자열 연결 연산자 66p
-        String a = "갈등";
-        String b = "의적";
+        String a = "세븐틴";
+        String b = "팀 ";
 
         String c = b + a;
 

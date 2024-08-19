@@ -10,7 +10,8 @@ public class C02Print {
         //print : 한 줄에 출력
         System.out.print("월요일이네요.");
 
-        //printf : 형식에 맞추어 출력 (이전 형식에 이어서)
+        //printf : 형식에 맞추어 출력
+        System.out.println();
         System.out.printf("이럴수가!");
         System.out.println();
         System.out.printf("이름은 %s", "손흥민");

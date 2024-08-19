@@ -7,7 +7,12 @@ public class C06ToString {
         // String.valueOf 혹은 ""(빈문자열)과 + (연결연산)
         int a = 33;
         String b = String.valueOf(a);
+        System.out.println("b : " + b);
+
         String c = "" + a;
+        System.out.println("c : " + c);
+
         String d = a + "";
+        System.out.println("d : " + d);
     }
 }

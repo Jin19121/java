@@ -6,6 +6,7 @@ public class C06TypeConversion {
         byte a = 3;
         byte b = 5;
         int c = a + b;
+        System.out.println(c);
 
         //정수 끼리의 연산 결과는 정수
         int d = 5;

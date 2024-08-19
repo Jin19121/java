@@ -6,10 +6,10 @@ public class C02Scanner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("name>");
+        System.out.print("name> ");
         String name = scanner.nextLine();
 
-        System.out.print("age>");
+        System.out.print("age> ");
         String age = scanner.nextLine();
 
         String desc = STR."\{name}님의 나이는 \{age}입니다.";

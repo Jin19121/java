@@ -7,10 +7,12 @@ public class C05TypeConversion {
         int a = 3;
         int b = 5;
         int c = a + b;
+        System.out.println("c = " + c);
 
         int d = 3;
         long e = 5;
         long f = d + e; //결과가 long이기 때문에 int에 담을 없다
+        System.out.println("f = " + f);
 
         int g = 3;
         long h = 4000000000L;

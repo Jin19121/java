@@ -13,11 +13,11 @@ public class C07TextBlock {
         // text block : 첫 세 따옴표 이후 줄을 바꾸어야 함. 첫 줄 들여쓰기 기준
         String c = """ 
                 땅을 보고 계속 올랐지 정상까지
-                    많은 시련은 보란 듯이, I always win
-                    강한 마음이 중요하지
-                    미래는 도망가지 않아 내가 놓기 전까지
+                많은 시련은 보란 듯이, I always win
+                강한 마음이 중요하지
+                미래는 도망가지 않아 내가 놓기 전까지
                 """;
-        System.out.println("c = " + c);
+        System.out.println(c);
 
         //ex
         String html1 = "<html>\n" +

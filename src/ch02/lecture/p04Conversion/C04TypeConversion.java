@@ -10,7 +10,7 @@ public class C04TypeConversion {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        long c = b;
+        long c = a;
         System.out.println("c = " + c);
 
         a = (char) b;

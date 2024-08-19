@@ -8,6 +8,7 @@ public class C08Template {
 
         String a = "이름은 " + name + ", 나이는 " + age;
         System.out.println(a);
+        
         System.out.printf("이름은 %s, 나이는 %d%n", name, age);
 
         String b = STR."이름은 \{name}, 나이는 \{age}";
