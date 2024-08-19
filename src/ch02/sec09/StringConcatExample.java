@@ -17,5 +17,6 @@ public class StringConcatExample {
         String result5 = "10" + (2 + 8);
         System.out.println("result5 : " + result5);
 
+        
     }
 }
