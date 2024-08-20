@@ -20,12 +20,12 @@ public class C04IncreaAndDecrease {
         int e = 11;
         int f = e;
         e++;
-        System.out.println("f = " + f);
-        System.out.println("e = " + e);
+        System.out.println("f = " + f);//11
+        System.out.println("e = " + e);//12
 
         e++;
         int g = e;
-        System.out.println("g = " + g);
-        System.out.println("e = " + e);
+        System.out.println("g = " + g);//13
+        System.out.println("e = " + e);//13
     }
 }

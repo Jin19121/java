@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class C03or {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("수> ");
+        System.out.print("수> ");
         int num = scanner.nextInt();
 
-        boolean result = (num % 2 == 0) || (num % 5 == 0);
+        boolean result = num % 2 == 0 || num % 5 == 0;
         if (result) {
             System.out.println("2 또는 5의 배수이다");
         } else {

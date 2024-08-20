@@ -27,7 +27,7 @@ public class C06Double {
         System.out.println(3.0 % 0);
 
         double b = 3.0 % 0;
-        b = b * 1;
+        b = b * 2;
         System.out.println("b : " + b);
 
         //NaN 인지 확인

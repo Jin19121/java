@@ -7,12 +7,14 @@ public class ScannerExample {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("x값: ");
-        String strX = scanner.nextLine();
-        int x = Integer.parseInt(strX);
+//        String strX = scanner.nextLine();
+//        int x = Integer.parseInt(strX);
+        int x = scanner.nextInt();
 
         System.out.print("y값: ");
-        String strY = scanner.nextLine();
-        int y = Integer.parseInt(strY);
+//        String strY = scanner.nextLine();
+//        int y = Integer.parseInt(strY);
+        int y = scanner.nextInt();
 
         int result = x + y;
         System.out.println("x + y = " + result);
