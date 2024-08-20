@@ -6,13 +6,13 @@ public class C02Ternary {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("age> ");
+        System.out.print("age> ");
         int age = scanner.nextInt();
 //        int age = 15;
 
-        String message = (age >= 13 && age <= 19) ? "청소년" : "청소년 외";
+        String message = (age >= 13 && age <= 19) ? "청소년이다." : "청소년이 아니다.";
 
-        System.out.println(message + "이다.");
+        System.out.println(message);
 
     }
 }

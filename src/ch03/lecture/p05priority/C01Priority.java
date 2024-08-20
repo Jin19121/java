@@ -5,7 +5,6 @@ public class C01Priority {
         //연산자 우선순위 107p
 
         int a = 3 + 5 * 2;
-
         System.out.println("a = " + a);
 
         //()로 먼저 연산되는 부분 감싸기
