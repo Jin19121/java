@@ -1,6 +1,6 @@
 package ch04.lecture.exercise;
 
-public class Q03 {
+public class Q03While {
     public static void main(String[] args) {
         int sum = 0;
         int i = 1;
