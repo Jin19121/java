@@ -13,7 +13,7 @@ public class C06EnhancedFor {
 
         System.out.println("--enhanced for--");//개선된 for
 
-        for (int n : arr) {//15장 소개
+        for (int n : arr) {//15장 소개 for (타입 변수명 : 배열)
             System.out.println("n = " + n);
         }
     }

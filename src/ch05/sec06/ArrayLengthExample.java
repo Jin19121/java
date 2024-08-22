@@ -9,13 +9,13 @@ public class ArrayLengthExample {
         }
 
         int sum = 0;
-        for (int i = 0; i < scores.length; i++) {
-            sum += scores[0];
-        }
-
-//        for (int score : scores) {
-//            sum += score;
+//        for (int i = 0; i < scores.length; i++) {
+//            sum += scores[0];
 //        }
+
+        for (int score : scores) {
+            sum += score;
+        }
 
         System.out.println("총합 = " + sum);
 
