@@ -18,7 +18,7 @@ public class C04Array {
         System.out.println("-------------");
 
         for (int i = 0; i < 5; i++) { // i = index
-            System.out.println("i= " + i);
+            System.out.println(STR."a[\{i}] = \{a[i]}");
         }
     }
 }

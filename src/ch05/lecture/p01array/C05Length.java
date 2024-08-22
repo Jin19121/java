@@ -14,7 +14,7 @@ public class C05Length {
         int[] crr = new int[10];
         System.out.println("c = " + crr.length);
 
-        int[] drr = new int[5];
+        int[] drr = new int[3];
         drr[0] = 5;
         drr[1] = 7;
         drr[2] = 9;

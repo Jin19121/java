@@ -7,6 +7,7 @@ public class Q07An {
         Scanner scanner = new Scanner(System.in);
         boolean run = true;
         int balance = 0;
+
         while (run) {
             System.out.println("""
                     ---------------------------------

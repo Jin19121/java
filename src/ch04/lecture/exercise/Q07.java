@@ -6,6 +6,8 @@ public class Q07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean run = true;
+        int money = 10_0000;
+        
         while (run) {
             System.out.println("----------");
             System.out.println("1. 예금 | 2. 출금 | 3. 잔고 | 4. 종료");
@@ -13,7 +15,7 @@ public class Q07 {
             System.out.print("선택> ");
 
             int sel = scanner.nextInt();
-            int money = 10_0000;
+
 
             switch (sel) {
                 case 1 -> {
@@ -30,6 +32,8 @@ public class Q07 {
                 case 3 -> System.out.println("잔고> " + money);
 
                 case 4 -> run = false;
+                default -> System.out.println("재선택");
+
             }
             System.out.println();
         }

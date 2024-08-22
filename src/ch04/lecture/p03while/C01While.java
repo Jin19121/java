@@ -11,6 +11,7 @@ public class C01While {//p. 131
             System.out.println(3);//영원히 반복
             a = false; //반복 끝
         }
+        System.out.println("-----");
         int i = 0;
         while (i < 3) {
             System.out.println(22);

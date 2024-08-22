@@ -8,13 +8,13 @@ public class DoWhile {
         System.out.println("프로그램 종료: q");
 
         Scanner scanner = new Scanner(System.in);
-        String inputString;
+        String text;
 
         do {
-            System.out.print(">");
-            inputString = scanner.nextLine();
-            System.out.println(inputString);
-        } while (!inputString.equals("q"));
+            System.out.print("> ");
+            text = scanner.nextLine();
+            System.out.println(text);
+        } while (!text.equals("q"));
         System.out.println();
         System.out.println("종료");
     }

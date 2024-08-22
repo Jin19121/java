@@ -16,6 +16,7 @@ public class C02Multiple {
             System.out.println(2 * x);
             x++;
         }
+        System.out.println("-----");
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("구구단> ");
