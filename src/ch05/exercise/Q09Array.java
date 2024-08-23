@@ -1,5 +1,6 @@
 package ch05.exercise;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q09Array {
@@ -7,12 +8,12 @@ public class Q09Array {
         Scanner scanner = new Scanner(System.in);
         boolean run = true;
         int n = 0;
-        int[] scores = new int[n];
+        int[] scores = null;
         while (run) {
             System.out.println("""
-                    ----------------------------------------------------
+                    -------------------------------------------------------
                     1. 학생수 | 2. 점수 입력 | 3. 점수 리스트 | 4. 분석 | 5. 종료
-                    ----------------------------------------------------
+                    -------------------------------------------------------
                     """);
             System.out.print("선택> ");
             int menu = scanner.nextInt();
@@ -21,16 +22,17 @@ public class Q09Array {
                 case 1 -> {
                     System.out.print("학생 수> ");
                     n = scanner.nextInt();
+                    scores = new int[n];
                 }
                 case 2 -> {
                     for (int i = 0; i < n; i++) {
-                        System.out.print(STR."scores[\{i}]> ");
+                        System.out.print("scores[" + i + "}]> ");
                         scores[i] = scanner.nextInt();
                     }
                 }
                 case 3 -> {
                     for (int i = 0; i < n; i++) {
-                        System.out.print(STR."scores[\{i}]> \{scores[i]}");
+                        System.out.println(STR."scores[\{i}]> \{scores[i]}");
                     }
                 }
                 case 4 -> {
@@ -39,8 +41,10 @@ public class Q09Array {
                     for (int i = 0; i < n; i++) {
                         sum += scores[i];
                         avg = sum / n;
-                        System.out.println("평균> " + avg);
                     }
+                    Arrays.sort(scores);
+                    System.out.println("최고 점수> " + scores[n - 1]);
+                    System.out.println("평균> " + avg);
                 }
 
                 case 5 -> run = false;

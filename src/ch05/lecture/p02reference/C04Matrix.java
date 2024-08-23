@@ -21,8 +21,9 @@ public class C04Matrix {
         System.out.println("m[1] = " + m[1]);
         System.out.println("m[2] = " + m[2]);
         System.out.println(Arrays.toString(m));
+        System.out.println("m[0] = " + Arrays.toString(m[0]));
 //
-
+        System.out.println("----");
         System.out.println(m[1][0]);
         System.out.println(m[1][2]);
         System.out.println(m[2][1]);
