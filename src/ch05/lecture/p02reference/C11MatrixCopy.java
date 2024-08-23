@@ -12,7 +12,7 @@ public class C11MatrixCopy {
             m2[i] = m1[i];
 
         }
-        m2[0][0] = 90;//배열 속의 배열값을 공유
+        m2[0][0] = 90;//배열 속의 배열값을 공유 (얕은 복사)
         System.out.println(m1[0][0]);
     }
 }
