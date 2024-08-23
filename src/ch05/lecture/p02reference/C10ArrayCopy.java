@@ -16,6 +16,5 @@ public class C10ArrayCopy {
 
         System.out.println(Arrays.toString(a));
         System.out.println(Arrays.toString(b));
-
     }
 }

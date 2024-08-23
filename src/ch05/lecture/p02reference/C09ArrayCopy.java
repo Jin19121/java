@@ -11,5 +11,8 @@ public class C09ArrayCopy {
         System.out.println(Arrays.toString(b));
 
         b[0] = 99;
+
+        System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(b));
     }
 }
