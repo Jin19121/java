@@ -9,8 +9,8 @@ public class C01Reference {
         arr = new int[]{5, 6};//{5, 6}이 객체 (instance) => 편의상  arr 객체라고 함
 
         System.out.println(a);//3
-        System.out.println(arr);//arr의 인스턴스 저장값
-        System.out.println(System.identityHashCode(arr)); //저장 참조값 확인
+        System.out.println(arr);//arr의 인스턴스 참조값
+        System.out.println(System.identityHashCode(arr)); //저장 참조값을 10진수로 확인
 
         int b;
         b = a;
