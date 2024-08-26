@@ -23,13 +23,14 @@ public class C13Split {
         System.out.println(x[4]);
         System.out.println(x[7]);
 
+        System.out.println("-----");
         String y = "java  css";
         String[] z = y.split(" ");
         System.out.println(z[0]);
         System.out.println(z[1]);
         System.out.println(z[2]);
 
-        String[] a = y.split(" +");
+        String[] a = y.split(" +");//정규표현식
         System.out.println(a[0]);
         System.out.println(a[1]);
     }

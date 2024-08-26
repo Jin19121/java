@@ -2,7 +2,7 @@ package ch05.lecture.p04strings;
 
 public class C04IsEmpty {
     public static void main(String[] args) {
-        //insEmpty:
+        //isEmpty:
         // 길이가 0일 때만 true
 
         String a = "";

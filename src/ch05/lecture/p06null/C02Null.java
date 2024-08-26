@@ -5,7 +5,7 @@ public class C02Null {
         String a = "java";
         String b = null;
 
-        String c;//초기화되지 않은 변수는 사용 불가. null 값을 줄 수 있음
+        String c;//초기화되지 않은 변수는 사용 불가.
 
         System.out.println(a);
         System.out.println(b);

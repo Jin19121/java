@@ -2,9 +2,9 @@ package ch05.lecture.p04strings;
 
 public class C03String {
     public static void main(String[] args) {
-        String a = new String("Java");
+        String a = new String("java");
         String b = "java";
-        String c = new String("Java");
+        String c = new String("java");
         String d = "java";
 
         System.out.println("a = " + a);
