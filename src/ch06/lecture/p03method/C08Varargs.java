@@ -17,7 +17,6 @@ public class C08Varargs {
         o.method3(1);
         o.method3(6, 7, 8);
     }
-
 }
 
 class MyClass08 {

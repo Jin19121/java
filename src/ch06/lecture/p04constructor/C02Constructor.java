@@ -14,7 +14,7 @@ class MyClass02 {
     String name;
 
     MyClass02() {
-        // 인스턴스 생성지 처음 해야 하는 일
+        // 인스턴스 생성 시 처음 해야 하는 일
         // 주로 필드 초기화 코드
         age = 1;
         name = "guest";

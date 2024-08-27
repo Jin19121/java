@@ -7,9 +7,12 @@ public class C06Parameter {
         MyClass06 o1 = new MyClass06();
         int v = 10;
         o1.method1(v);//실행 invoke, 호출 call
+        System.out.println("v = " + v);
+
         int[] a = {9, 3, 1};
         o1.method2(a); //참조값이 넘어감
         System.out.println("a[0] = " + a[0]);
+
         int[] b = {8, 9};
         o1.method2(b);
         System.out.println("Arrays.toSring(b) = " + Arrays.toString(b));

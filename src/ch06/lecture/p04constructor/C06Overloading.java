@@ -11,6 +11,9 @@ class MyClass06 {
     MyClass06(int a) {
     }
 
+    MyClass06(String b, int a) {
+    }
+
     MyClass06(int a, int b) {
     }
 
@@ -19,5 +22,4 @@ class MyClass06 {
 
     MyClass06(int a, String b) {
     }
-
 }

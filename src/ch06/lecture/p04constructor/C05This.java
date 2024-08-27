@@ -11,7 +11,7 @@ public class C05This {
 
         System.out.println();
         p.printFulDescirption();
-        p.printFulDescirption();
+        o.printFulDescirption();
     }
 }
 
@@ -27,6 +27,5 @@ class MyClass05 {
         this.printName();
         System.out.println(this.score);
     }
-
 }
 
