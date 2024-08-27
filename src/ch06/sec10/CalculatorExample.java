@@ -1,4 +1,4 @@
-package ch06.lecture.sec10;
+package ch06.sec10;
 
 public class CalculatorExample {
     public static void main(String[] args) {

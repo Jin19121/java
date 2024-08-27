@@ -1,4 +1,4 @@
-package ch06.lecture.sec10;
+package ch06.sec10;
 
 public class Calculator {
     static double pi = 3.14159;

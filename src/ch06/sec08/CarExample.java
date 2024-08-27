@@ -4,7 +4,7 @@ public class CarExample {
     public static void main(String[] args) {
         Car myCar = new Car();
 
-        myCar.setGas(5);
+        myCar.setGas(10);
 
         if (myCar.isLeftGas()) {
             System.out.println("go");
