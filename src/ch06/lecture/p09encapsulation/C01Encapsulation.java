@@ -1,0 +1,34 @@
+package ch06.lecture.p09encapsulation;
+
+import org.w3c.dom.ls.LSOutput;
+
+import java.sql.SQLOutput;
+
+public class C01Encapsulation {
+    public static void main(String[] args) {
+        MyClass01 o = new MyClass01();
+        o.setAge(9);
+        int a = o.getAge();
+        System.out.println("a = " + a);
+
+        o.setAge(-1);
+        System.out.println(); //후에 수정 필요
+        
+    }
+}
+
+class MyClass01 {
+    private int age;
+
+    public void setAge(int age) {
+        if (age < 0) {
+            this.age = 0;
+        } else {
+            this.age = age;
+        }
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+}
