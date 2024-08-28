@@ -11,7 +11,6 @@ public class C04Method {
 
         System.out.println(Math.PI);
         System.out.println(Math.E);
-
     }
 }
 

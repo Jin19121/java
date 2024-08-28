@@ -1,7 +1,9 @@
 package ch06.lecture.p05static;
 
 public class C05StaticBlock {
-
+    public static void main(String[] args) {
+        System.out.println(MyClass05.number);
+    }
 }
 
 class MyClass05 {

@@ -1,6 +1,5 @@
-package ch06.Exercise;
+package ch06.Exercise.q20;
 
-import java.awt.image.PackedColorModel;
 import java.util.Scanner;
 
 public class Q20 {

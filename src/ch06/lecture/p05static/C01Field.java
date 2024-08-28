@@ -1,7 +1,5 @@
 package ch06.lecture.p05static;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class C01Field {
     public static void main(String[] args) {
         MyClass01 o1 = new MyClass01();
@@ -13,7 +11,7 @@ public class C01Field {
 }
 
 class MyClass01 {
-    int age;//instace field
+    int age;//instance field
 
     static int number; //static field or class field
 }

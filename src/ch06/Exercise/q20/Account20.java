@@ -1,4 +1,4 @@
-package ch06.Exercise;
+package ch06.Exercise.q20;
 
 public class Account20 {
     private int no;

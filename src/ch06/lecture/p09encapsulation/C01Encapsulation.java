@@ -9,11 +9,11 @@ public class C01Encapsulation {
         MyClass01 o = new MyClass01();
         o.setAge(9);
         int a = o.getAge();
-        System.out.println("a = " + a);
+        System.out.println("age = " + a);
 
         o.setAge(-1);
-        System.out.println(); //후에 수정 필요
-        
+        System.out.println("age = " + o.getAge());
+
     }
 }
 

@@ -7,7 +7,6 @@ public class C04InstanceField {
 }
 
 class MyClass04 {
-
     int a; // 초기값 0
     final int b = 3; //final로 지정했으면 반드시 할당해야 한다.
     final int c; //혹은 생성자에서 할당 가능

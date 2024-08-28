@@ -3,7 +3,6 @@ package ch06.lecture.p06final;
 public class C05StaticField {
     public static void main(String[] args) {
         System.out.println(MyClass05.NUMBER);
-
     }
 }
 

@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class C06Package {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner scannaer = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         FileInputStream f = new FileInputStream("");
         FileOutputStream o = new FileOutputStream("");
