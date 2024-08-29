@@ -2,8 +2,9 @@ package ch07.lecture.p04cast;
 
 public class C05InstanceOf {
     public static void main(String[] args) {
-        A a = new B();
+        A a = new B();//자동 형변환
 
+        System.out.println(a instanceof B);
         if (a instanceof B) {
             B b = (B) a;
             //B의 메소드 실행...

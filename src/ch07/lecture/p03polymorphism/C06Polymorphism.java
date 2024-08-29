@@ -12,6 +12,6 @@ public class C06Polymorphism {
         String v = o.toString();
         int i = o.hashCode();
 
-//        o.nextLien();x
+//        o.nextLine();x
     }
 }

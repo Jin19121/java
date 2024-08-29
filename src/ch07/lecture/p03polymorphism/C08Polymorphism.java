@@ -1,7 +1,5 @@
 package ch07.lecture.p03polymorphism;
 
-import ch06.sec13.package1.B;
-
 public class C08Polymorphism {
     public static void main(String[] args) {
         Fish8 f = new Fish8();

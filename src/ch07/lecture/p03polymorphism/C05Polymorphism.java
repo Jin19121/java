@@ -8,6 +8,6 @@ public class C05Polymorphism {
         Object o = s;
         int i = o.hashCode();
         String v = o.toString();
-//        o.isEmpy();
+//        boolean f = o.isEmpty();
     }
 }

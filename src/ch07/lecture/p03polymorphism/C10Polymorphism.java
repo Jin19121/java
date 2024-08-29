@@ -2,7 +2,6 @@ package ch07.lecture.p03polymorphism;
 
 import java.util.Scanner;
 
-//확인 필요
 public class C10Polymorphism {
     public static void main(String[] args) {
         Object o = method();
@@ -12,6 +11,7 @@ public class C10Polymorphism {
 
     public static Object method() {
         double r = Math.random();
+
         if (r < 0.5) {
             return "java";
         }

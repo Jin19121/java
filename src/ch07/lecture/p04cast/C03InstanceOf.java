@@ -17,9 +17,6 @@ public class C03InstanceOf {
 
 
 //@formatter:off
-class Parent3 {
-
-}
-
+class Parent3 {}
 class Child31 extends Parent3{}
 class Child32 extends Parent3{}
