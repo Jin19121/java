@@ -7,12 +7,13 @@ public class C01Interface {
 
 //@formatter:off
 
-interface Aquatic1 {
-}
+interface Aquatic1 {}
 interface Beast1{}
 
 class Animal1 {}
+
 class Fish1 extends Animal1{}
+
 class Shark1 extends Fish1 implements Aquatic1, Beast1{}
 class Nimo1 extends Fish1 implements Aquatic1{}
 
