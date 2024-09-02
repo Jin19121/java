@@ -9,7 +9,7 @@ public class C01Anonymous {
         c.someMethod();
 
         // anonymous class
-        //상속받아 새 클래스 만들고 + 인스턴스 생성
+        //상속받아 새 자식 클래스 만들고 + 인스턴스 생성
         Parent1 a = new Parent1() {
             //자식클래스 코드들
             // :필드, 메소드만
