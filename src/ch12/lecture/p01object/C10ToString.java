@@ -20,17 +20,20 @@ class Book10 {
     private String author;
 
     public Book10(String title, int price, String author) {
-
+        this.title = title;
+        this.price = price;
+        this.author = author;
     }
 
     @Override
     public String toString() {
-        String r = STR."""
-                제목: \{title}
-                가격: \{price}
-                저자: \{author}""";
-        return r;
+        return "Bookex{" +
+                "title='" + title + '\'' +
+                ", price=" + price +
+                ", author='" + author + '\'' +
+                '}';
     }
 }
+
 
 //506
