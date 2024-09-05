@@ -9,6 +9,7 @@ import static java.util.Arrays.*;
 
 public class C02StaticMember {
     public static void main(String[] args) {
+//static => 사용에 용이
         double p = PI; // static field
 
         int m = max(300, 400); // static method
