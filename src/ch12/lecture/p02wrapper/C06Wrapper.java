@@ -27,6 +27,5 @@ public class C06Wrapper {
         System.out.println(e <= f);
         System.out.println(e.compareTo(f));
         System.out.println(f.compareTo(e));
-
     }
 }
