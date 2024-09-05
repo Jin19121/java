@@ -1,7 +1,6 @@
 package ch09.lecture.p02nested;
 
 public class C03LocalClass {
-
 }
 
 class MyClass3 {
