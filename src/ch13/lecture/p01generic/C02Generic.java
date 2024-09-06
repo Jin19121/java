@@ -7,12 +7,12 @@ public class C02Generic {
         box1.setItem("spring");
         box2.setItem(500); //넣는 건 ok
 
-        //꺼내는 게 데이터형을 알 수 없음
+        //꺼내는 것의 데이터형을 알 수 없음
         Object item1 = box1.getItem();
         Object item2 = box2.getItem();
 
         String s1 = (String) item1; //ok
-        Integer se = (Integer) item2; //ok
+        Integer s2 = (Integer) item2; //ok
 
         //mistake
         String s3 = (String) item2; //not ok
