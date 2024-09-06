@@ -7,7 +7,7 @@ public class C04Wildcard {
         var b3 = new Box4<Object>();
 
 //        pirntItem(b1);
-//        pirntItem(b2); Box4<Long>은 Box4<Object>에 포함되지 않는다. 상속 관계 아님
+//        pirntItem(b2); //Box4<Long>은 Box4<Object>에 포함되지 않는다. 상속 관계 아님
         pirntItem(b3);
     }
 

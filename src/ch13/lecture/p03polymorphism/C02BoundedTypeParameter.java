@@ -10,6 +10,5 @@ class MyClass2<T extends Object> {
         System.out.println(param.toString());
         System.out.println(param.equals(null));
         System.out.println(param.hashCode());
-
     }
 }
