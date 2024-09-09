@@ -13,13 +13,13 @@ public class C01HashSet {
         set.add("spring");
         set.add("html");
 
-        //삭제 contains
+        //있는지 확인 contains
         boolean b1 = set.contains("react");
         System.out.println("b1 = " + b1);//false
         boolean b2 = set.contains("html");
         System.out.println("b2 = " + b2);
 
-        //있는지 확인 size
+        // 원소 수 size
         System.out.println(set.size());
 
         //삭제
