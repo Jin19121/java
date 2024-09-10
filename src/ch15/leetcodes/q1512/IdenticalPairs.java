@@ -1,11 +1,10 @@
-package ch15.leetcodes.q2206;
+package ch15.leetcodes.q1512;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class DivideArray {
-    public boolean divideArray(int[] nums) {
-        // 배열을 전체 탐색해서 각 수가 몇 개인지 저장
+public class IdenticalPairs {
+    public int numIdenticalPairs(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int n : nums) {
             if (map.containsKey(n)) {
@@ -14,15 +13,14 @@ public class DivideArray {
                 map.put(n, 1);
             }
         }
-        boolean result = true;
-        //map을 전체 탐색해서 value가 홀수인 것이 있으면 return false
+        int sum = 0;
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            Integer key = entry.getKey();
             Integer val = entry.getValue();
-            if (val % 2 == 1) {
-                result = false;
+            if (val != 1) {
+                sum += val * (val - 1) / 2;
             }
         }
-
-        return result;
+        return sum;
     }
 }
