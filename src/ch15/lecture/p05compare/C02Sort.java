@@ -49,10 +49,7 @@ class Book2 implements Comparable<Book2> {
 
     @Override
     public String toString() {
-        return "Book2{" +
-                "title='" + title + '\'' +
-                ", price=" + price +
-                '}';
+        return STR."Book2{제목: '\{title}' 가격: '\{price}'}";
     }
 
     @Override

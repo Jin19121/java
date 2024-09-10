@@ -2,6 +2,7 @@ package ch15.lecture.p05compare;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class C03Sort {
@@ -15,7 +16,12 @@ public class C03Sort {
         list.forEach(System.out::println);
 
         System.out.println("--가격순 정렬--");
-        Collections.sort(list, (x, y) -> x.getPrice() - y.getPrice());
+        Collections.sort(list, new Comparator<Book3>() {
+            @Override
+            public int compare(Book3 x, Book3 y) {
+                return x.getPrice() - y.getPrice();
+            }
+        });
         list.forEach(System.out::println);
 
         System.out.println("--가격 역순--");
