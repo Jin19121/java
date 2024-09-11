@@ -1,5 +1,7 @@
 package ch09.exercise.q07;
 
+import static java.lang.StringTemplate.STR;
+
 public class Chatting {
     class Chat {
         void start() {
