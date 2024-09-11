@@ -4,8 +4,10 @@ public class C01Operation {
     public static void main(String[] args) {
         // 스트림 연산(메소드)
 
-        //1. 중간 연산 intermediate operation
+        //1. 중간 연산/처리 intermediate operation
+        // return: Stream(IntStream, DoubleStream, LongStream)
 
         //2. 최종 연산 terminal operation
+        // return : Stream이 아님 혹은 void일 수도 있다
     }
 }
