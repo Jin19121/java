@@ -9,7 +9,5 @@ public class C04MapToInt {
         list.stream()
                 .mapToInt(e -> e.length())
                 .forEach(System.out::println);
-
-
     }
 }

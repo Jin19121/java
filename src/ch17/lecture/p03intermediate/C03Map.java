@@ -17,6 +17,5 @@ public class C03Map {
         list.stream()
                 .map(e -> e.substring(0, 1))
                 .forEach(System.out::println);
-
     }
 }

@@ -10,10 +10,18 @@ public class Example {
                 "Lambda Expression",
                 "Java8 supports lambda Expression"
         );
+
+        System.out.println("-Stream API-");
         list.stream()
-                .filter(e -> e.contains("java") || e.contains("Java"))
+                .filter(e -> e.toLowerCase().contains("java"))
                 .forEach(System.out::println);
-        //api 참고
-        //lowerCase 참고
+
+        
+        System.out.println("-고전적 반복문-");
+        for (String item : list) {
+            if (item.toLowerCase().contains("java")) {
+                System.out.println(item);
+            }
+        }
     }
 }
