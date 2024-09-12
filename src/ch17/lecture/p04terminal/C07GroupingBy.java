@@ -14,7 +14,7 @@ public class C07GroupingBy {
                         Collectors.groupingBy(e -> e % 2 == 0 ? "짝" : "홀"));
         map.forEach((k, v) -> System.out.println(k + ": " + v));
 
-        //확인해봐 이게 모임
+
         map.forEach((k, v) -> {
             long count = v.stream()
                     .count();
