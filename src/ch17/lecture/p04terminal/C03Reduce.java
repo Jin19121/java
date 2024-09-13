@@ -13,7 +13,7 @@ public class C03Reduce {
 
         List<Integer> emptyList = List.of();
         Optional<Integer> sum2 = emptyList.stream()
-                .reduce(Integer::sum);
+                .reduce((a, b) -> Integer.sum(a, b));
 //        Integer s2 = sum2.get(); Exception
         Integer s2 = sum2.orElse(0);
         System.out.println("s2 = " + s2);
