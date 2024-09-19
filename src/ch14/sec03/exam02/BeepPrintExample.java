@@ -4,6 +4,7 @@ import java.awt.*;
 
 public class BeepPrintExample {
     public static void main(String[] args) {
+
         Thread thread = new Thread(new Runnable() { //C03과 같이 람다로 대체 가능
             @Override
             public void run() {

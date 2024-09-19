@@ -25,8 +25,9 @@ public class C03Runnable {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                ;
             }
         });
+        t1.start();
+        t2.start();
     }
 }//599 3-2에 재정의 확인
