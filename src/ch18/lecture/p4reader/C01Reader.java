@@ -16,7 +16,5 @@ public class C01Reader {
         System.out.println("c2 = " + c2);
 
         reader.close();
-
-
     }
 }

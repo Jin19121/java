@@ -18,7 +18,6 @@ public class C03PrintWriter {
         pw.println("올해는 쉬는 날이 없어요.");
 
         writer.close();
-
     }
 }
 //809
