@@ -15,7 +15,7 @@ public class C04Server {
         while (true) {
             System.out.println("파일 받기를 기다리는 중...");
             Socket socket = serverSocket.accept();
-            Thread t = new Thread(() -> { //왜 스레드를...? 람다로..?
+            Thread t = new Thread(() -> {
                 try {
                     InputStream is = socket.getInputStream();
                     BufferedInputStream bis = new BufferedInputStream(is);
@@ -41,6 +41,6 @@ public class C04Server {
                 }
             });
             t.start();
-        }//다시 확인하기
+        }
     }
 }

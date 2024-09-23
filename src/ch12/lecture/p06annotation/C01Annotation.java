@@ -28,5 +28,4 @@ class MyClass1 {
 //annotation 정의
 @Retention(RetentionPolicy.RUNTIME)
 @interface MyAnnotation1 {
-
 }

@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class C05Client {
     public static void main(String[] args) throws IOException {
         //키보드 입력 server로 보내기
-        Socket socket = new Socket("172.30.1.84", 9999);
+        Socket socket = new Socket("172.30.1.20", 9999);
         System.out.println("[연결]");
 
         OutputStream os = socket.getOutputStream();
