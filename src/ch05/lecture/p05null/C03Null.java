@@ -1,4 +1,4 @@
-package ch05.lecture.p06null;
+package ch05.lecture.p05null;
 
 public class C03Null {
     public static void main(String[] args) {
