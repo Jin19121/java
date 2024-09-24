@@ -10,7 +10,7 @@ public class C05Element {
 }
 
 @interface MyAnnotation5 {
-    //부가정도 정의하기
+    //부가정보 정의하기
     //element(attribute)
     String name();
 

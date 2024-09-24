@@ -21,7 +21,8 @@ class Country {
 
     public static Country getInstance() {
         if (s == null) {
-            return s;
-        } else return s; //이거 아니다.
+            s = new Country();
+        }
+        return s;
     }
 }//276

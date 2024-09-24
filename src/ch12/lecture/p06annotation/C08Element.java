@@ -7,7 +7,7 @@ public class C08Element {
     @MyAnnotation8(value = "seoul")
     int b;
 
-    // 하나의 element만 사용되고 value면 element 명 생략 가능
+    // 하나의 element만 사용되고 value면 element명 생략 가능
     @MyAnnotation8("seoul")
     int c;
 
