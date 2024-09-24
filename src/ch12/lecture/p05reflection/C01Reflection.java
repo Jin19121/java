@@ -1,4 +1,4 @@
-package ch12.lecture.p05annotation;
+package ch12.lecture.p05reflection;
 
 public class C01Reflection {
     public static void main(String[] args) throws ClassNotFoundException {

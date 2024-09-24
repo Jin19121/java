@@ -1,6 +1,5 @@
-package ch12.lecture.p05annotation;
+package ch12.lecture.p05reflection;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
